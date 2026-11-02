@@ -1,0 +1,44 @@
+{
+  "duplicateListings": [],
+  "rowType": "opportunity",
+  "source": "grants.gov",
+  "id": "grantsgov:363268",
+  "isNew": true,
+  "isUpdated": false,
+  "opportunityNumber": "26-512",
+  "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)",
+  "agency": "U.S. National Science Foundation",
+  "agencyCode": "NSF",
+  "status": "posted",
+  "postedDate": "2026-07-21",
+  "closeDate": "2026-11-04",
+  "daysUntilDeadline": 3,
+  "deadlineUrgency": "due-this-week",
+  "archiveDate": "2026-12-04",
+  "awardFloorUsd": null,
+  "awardCeilingUsd": null,
+  "estimatedTotalFundingUsd": 100000000,
+  "expectedNumberOfAwards": 50,
+  "costSharingRequired": false,
+  "eligibility": [
+    "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+  ],
+  "eligibilityNotes": "*Who May Submit Proposals: Proposals may only be submitted by the following: -For-profit organizations: U.S.-based commercial organizations, including small businesses, with strong capabilities in sci...",
+  "fundingInstruments": [
+    "Grant"
+  ],
+  "categories": [
+    "Science and Technology and other Research and Development"
+  ],
+  "assistanceListings": [
+    "47.084",
+    "47.041",
+    "47.049"
+  ],
+  "matchedKeywords": [
+    "artificial intelligence"
+  ],
+  "description": "This program will advance scientific community datasets to enable scientific discovery and innovation using artificial intelligence (AI) and other methods. Its goal is to increase the value that can b...",
+  "fullAnnouncementUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26512",
+  "agencyContactEmail": "contact@example.com"
+}

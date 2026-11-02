@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "machine learning",
+    "artificial intelligence"
+  ],
+  "sources": [
+    "grantsgov",
+    "nsf",
+    "nih"
+  ],
+  "awardsLookbackDays": 90,
+  "maxItems": 40,
+  "strictKeywords": true,
+  "mode": "all",
+  "includeNoDeadline": true,
+  "enableDeadlineAlerts": false,
+  "deadlineAlertDays": [
+    "30",
+    "7"
+  ],
+  "addPastWinners": false,
+  "opportunityStatuses": [
+    "posted",
+    "forecasted"
+  ],
+  "includeDetails": true,
+  "includeAbstracts": false
+}
