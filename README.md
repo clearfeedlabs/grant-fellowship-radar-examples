@@ -33,6 +33,12 @@ See `sample-output.json` for one trimmed record.
 ## Pricing
 Pay per result: **$2.00 per 1,000 rows**, with no subscription. The [Store page](https://apify.com/clearfeedlabs/grant-fellowship-radar) always shows current prices and every optional add-on event.
 
+## Related Clearfeed Labs Actors
+- [USAspending Scraper: Federal Contract & Grant Award Alerts](https://apify.com/clearfeedlabs/money-trail-federal-awards): federal contract and grant awards with recompete details
+- [ClinicalTrials.gov Scraper & Trial Change Tracker: PubMed + FDA](https://apify.com/clearfeedlabs/clinical-trial-tracker): ClinicalTrials.gov changes and new trials
+- [Internship & New Grad Jobs Scraper API + H-1B Sponsors](https://apify.com/clearfeedlabs/entry-jobs-feed): internships and new-grad roles with H-1B history
+- [All Clearfeed Labs Actors](https://apify.com/clearfeedlabs)
+
 ## FAQ
 **Is this data official?** Yes. It comes from the public source named above, and each record links back to it.
 **Do I need a login or proxy?** No. It uses documented public endpoints only.
