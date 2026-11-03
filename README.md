@@ -1,8 +1,11 @@
-# Grant & Fellowship Radar: examples
+# Grants.gov Scraper & Grant Finder API: NSF, NIH Fellowships: examples
 
-Federal grant and fellowship alerts from Grants.gov, NSF and NIH in one table.
+Federal grant and fellowship alerts from official Grants.gov, NSF Award Search and NIH RePORTER APIs. Filter by keyword, agency, eligibility, category and deadline window. Normalized, deduplicated rows, new-since-last-run mode and 30/7-day deadline alerts.
 
-This repo shows how to call the [Grant & Fellowship Radar](https://apify.com/clearfeedlabs/grant-fellowship-radar) Apify Actor from JavaScript or Python and what the output looks like.
+This repo shows how to call the [Grant & Fellowship Radar](https://apify.com/clearfeedlabs/grant-fellowship-radar) Apify Actor from JavaScript or Python, and what the output looks like.
+
+## What's new
+- Phrase search for multi-word keywords, title matches ranked first, new `keywordMatch` field; "machine learning" now returns 8/8 relevant rows in ~11 s (was 1 row in 74 s).
 
 ## Use cases
 - Graduate students and postdocs looking for fellowships
@@ -17,17 +20,27 @@ This repo shows how to call the [Grant & Fellowship Radar](https://apify.com/cle
    - JavaScript: `npm i apify-client && node run.mjs`
    - Python: `pip install apify-client && python run.py`
 
-## Files
-- `input.json`: a working example input
-- `run.mjs` / `run.py`: run the Actor and print the first results
-- `sample-output.json`: one trimmed example record (long fields shortened)
+## Output fields (first of many)
+`duplicateListings`, `rowType`, `source`, `id`, `isNew`, `isUpdated`, `opportunityNumber`, `title`, `agency`, `agencyCode`, `status`, `postedDate`, `closeDate`, `daysUntilDeadline`, `deadlineUrgency`, `archiveDate`, `awardFloorUsd`, `awardCeilingUsd`
+
+See `sample-output.json` for one trimmed record.
+
+## Ready-made example tasks
+- [Graduate fellowships closing soon](https://apify.com/clearfeedlabs/grant-fellowship-radar/examples/graduate-fellowships-closing-soon)
+- [Machine learning ai research funding](https://apify.com/clearfeedlabs/grant-fellowship-radar/examples/machine-learning-ai-research-funding)
+- [Nih health research grants awards](https://apify.com/clearfeedlabs/grant-fellowship-radar/examples/nih-health-research-grants-awards)
 
 ## Pricing
-Pay per result on Apify. See the current price list on the [Store page](https://apify.com/clearfeedlabs/grant-fellowship-radar).
+Pay per result: **$2.00 per 1,000 rows**, with no subscription. The [Store page](https://apify.com/clearfeedlabs/grant-fellowship-radar) always shows current prices and every optional add-on event.
+
+## FAQ
+**Is this data official?** Yes. It comes from the public source named above, and each record links back to it.
+**Do I need a login or proxy?** No. It uses documented public endpoints only.
+**Can I schedule it?** Yes. Use Apify Schedules, the API or integrations (Zapier, Make, webhooks, MCP-compatible AI agents).
 
 ## Links
 - Actor on the Apify Store: https://apify.com/clearfeedlabs/grant-fellowship-radar
-- Guide: https://clearfeedlabs.com/guides/grant-fellowship-radar/
+- Details & pricing: https://clearfeedlabs.com/actors/grant-fellowship-radar/
 - Clearfeed Labs: https://clearfeedlabs.com
 - Bugs or questions: open an issue on the Actor's Issues tab on Apify.
 

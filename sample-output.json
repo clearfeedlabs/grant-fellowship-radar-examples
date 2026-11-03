@@ -2,43 +2,46 @@
   "duplicateListings": [],
   "rowType": "opportunity",
   "source": "grants.gov",
-  "id": "grantsgov:363268",
-  "isNew": true,
+  "id": "grantsgov:364160",
+  "isNew": false,
   "isUpdated": false,
-  "opportunityNumber": "26-512",
-  "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)",
-  "agency": "U.S. National Science Foundation",
-  "agencyCode": "NSF",
+  "opportunityNumber": "NOAA-OAR-CPO-2027-33392",
+  "title": "Climate Program Office FY 2027 - Super Intelligence/Machine Learning Innovation to Advance NOAA's Earth System Science and Support Hazard Resilience",
+  "agency": "DOC NOAA - ERA Production",
+  "agencyCode": "DOC-DOCNOAAERA",
   "status": "posted",
-  "postedDate": "2026-07-21",
-  "closeDate": "2026-11-04",
-  "daysUntilDeadline": 3,
-  "deadlineUrgency": "due-this-week",
-  "archiveDate": "2026-12-04",
-  "awardFloorUsd": null,
-  "awardCeilingUsd": null,
-  "estimatedTotalFundingUsd": 100000000,
-  "expectedNumberOfAwards": 50,
+  "postedDate": "2026-10-27",
+  "closeDate": "2027-02-09",
+  "daysUntilDeadline": 98,
+  "deadlineUrgency": "later",
+  "archiveDate": null,
+  "awardFloorUsd": 1,
+  "awardCeilingUsd": 750000,
+  "estimatedTotalFundingUsd": null,
+  "expectedNumberOfAwards": null,
   "costSharingRequired": false,
   "eligibility": [
     "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
   ],
-  "eligibilityNotes": "*Who May Submit Proposals: Proposals may only be submitted by the following: -For-profit organizations: U.S.-based commercial organizations, including small businesses, with strong capabilities in sci...",
+  "eligibilityNotes": "Eligible applicants are: Institutions of higher education; Other nonprofits; Commercial organizations; Local and federally recognized Tribal governments; Federal agencies that possess the statutory authority to receive transfers of funds. The funding instrument for a selected application from a non-\u2026",
   "fundingInstruments": [
     "Grant"
   ],
   "categories": [
+    "Natural Resources",
     "Science and Technology and other Research and Development"
   ],
   "assistanceListings": [
-    "47.084",
-    "47.041",
-    "47.049"
+    "11.431"
   ],
   "matchedKeywords": [
-    "artificial intelligence"
+    "machine learning"
   ],
-  "description": "This program will advance scientific community datasets to enable scientific discovery and innovation using artificial intelligence (AI) and other methods. Its goal is to increase the value that can b...",
-  "fullAnnouncementUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf26512",
-  "agencyContactEmail": "contact@example.com"
+  "keywordMatch": "all-words",
+  "description": "Through this Notice of Federal Funding Opportunity, the NOAA Climate Program Office ( https://cpo.noaa.gov/funding-opportunities/ ) is soliciting proposals for a FY 2027 grants competition focused on Super Intelligence/Machine Learning Innovation to Advance NOAA's Earth System Science and Support Ha\u2026",
+  "fullAnnouncementUrl": null,
+  "agencyContactEmail": "Kathleen.Palermo@noaa.gov",
+  "url": "https://www.grants.gov/search-results-detail/364160",
+  "lastUpdated": "2026-10-28",
+  "scrapedAt": "2026-11-03T20:22:53.294Z"
 }
