@@ -36,7 +36,7 @@ Pay per result: **$2.00 per 1,000 rows**, with no subscription. The [Store page]
 ## Related Clearfeed Labs Actors
 - [USAspending Scraper: Federal Contract & Grant Award Alerts](https://apify.com/clearfeedlabs/money-trail-federal-awards): federal contract and grant awards with recompete details
 - [ClinicalTrials.gov Scraper & Trial Change Tracker: PubMed + FDA](https://apify.com/clearfeedlabs/clinical-trial-tracker): ClinicalTrials.gov changes and new trials
-- [Internship & New Grad Jobs Scraper API + H-1B Sponsors](https://apify.com/clearfeedlabs/entry-jobs-feed): internships and new-grad roles with H-1B history
+- [Research Lab Finder: Funded Labs by Topic (NIH, NSF, PubMed)](https://apify.com/clearfeedlabs/paper-to-lab-research-finder): funded research labs by topic from NIH and NSF grants
 - [All Clearfeed Labs Actors](https://apify.com/clearfeedlabs)
 
 ## FAQ
